@@ -15,17 +15,19 @@
     <title>Document</title>
   </head>
   <body>
+   <!--Audio Play-->
     <audio id="bg-music" autoplay loop muted>
-    <source src="AnginPujaanHujan.mp3" type="audio/mpeg">
-</audio>
+    <source src="Angin Pujaan Hujan.mp3" type="audio/mpeg">
+    </audio>
 
-<script>
+    <script>
     document.addEventListener("click", function() {
         var audio = document.getElementById("bg-music");
         audio.muted = false;
         audio.play();
     }, { once: true });
-</script>
+    </script>
+    
     <!-- Envelope Screen -->
     <div id="envelope-container">
       <img src="envelope.png" alt="Envelope" id="envelope" />
